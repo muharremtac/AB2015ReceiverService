@@ -26,7 +26,6 @@ public class MesajService extends Service {
     public IBinder onBind(Intent intent) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
-
     @Override
     public void onCreate() {
         new Thread(new Runnable() {
